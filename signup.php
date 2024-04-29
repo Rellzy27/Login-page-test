@@ -2,8 +2,8 @@
     session_start();
 
     $host = 'localhost';
-    $user = 'rellzy';
-    $pass = '060307';
+    $user = 'user';
+    $pass = 'pass';
     $db = 'user_login';
 
     $cnn = new mysqli($host,$user,$pass,$db); 
